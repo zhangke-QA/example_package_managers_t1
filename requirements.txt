@@ -10,3 +10,198 @@ requests~=2.26.0
 beautifulsoup4~=4.10.0
 /path/to/local/package
 git+https://github.com/user/repo@branch
+# Conservative Django
+django==3.2.12 # pyup: <2.0
+
+# Configuration
+django-environ==0.8.1
+
+# Models
+django-model-utils==4.2.0
+django-extensions==3.1.5
+
+# Images
+Pillow==7.1.0
+
+# Password storage
+argon2-cffi==19.2.0
+
+# For user registration, either via email or social
+# Well-built with regular release cycles!
+django-allauth==0.54.0
+
+
+# Python-PostgreSQL Database Adapter
+psycopg2-binary==2.9.3
+
+# Unicode slugification
+awesome-slugify==1.6.5
+
+# Time zones support
+pytz==2021.3
+
+# Redis support
+django-redis
+redis==3.4.1
+
+# Async task queue
+celery==5.2.3
+flower==1.0.0
+
+# custom DatabaseScheduler for celery beat
+django-celery-beat==2.2.0
+
+# Your custom requirements go here
+
+# HTTP request
+requests==2.23.0
+
+# Github API client
+PyGithub==1.54.1
+
+# Django REST Framework
+djangorestframework==3.13.1
+
+# DRF nested routes
+drf-extensions==0.7.1
+
+# DRF rest-auth
+dj-rest-auth==2.2.2
+
+# Django CORS
+django-cors-headers==3.11.0
+
+# stripe
+stripe==2.56.0
+
+# dj-stripe integration
+dj-stripe==2.5.1
+
+# SSH key generation
+cryptography==3.3.2
+
+# Email invitation module
+django-invitations==1.9.3
+
+# AWS client
+boto3==1.12.14
+
+# Email backend
+django-anymail==8.4
+sendgrid==6.1.2
+
+# Swagger generator
+drf-yasg==1.20.0
+
+# Django Filter
+django-filter==21.1
+
+# Django Rules
+rules==2.2
+
+# REST framework JWT Auth
+djangorestframework-simplejwt==4.6.0
+
+pusher==2.1.4
+bcrypt==3.1.7
+weasyprint==52.5
+
+# pygal
+pygal==2.4.0
+
+# python-gitlab
+python-gitlab==2.0.1
+
+# JIRA API client
+jira==3.5.0
+
+# Django-slack
+django-slack==5.17.6
+
+# Django defender
+django-defender==0.9.1
+
+# DRF-Tracking
+drf-api-tracking==1.8.0
+
+# tornado
+tornado==5.1.1
+
+# Dict to xml
+dicttoxml==1.7.12
+
+elasticsearch==7.5.1
+elasticsearch-dsl==7.1.0
+
+#msal
+msal==1.1.0
+
+#prometheus monioring plugin
+django-prometheus==2.2.0
+prometheus-client==0.8.0
+
+# misc
+certifi==2019.11.28
+configparser==4.0.2
+python-dateutil==2.8.1
+six==1.14.0
+urllib3==1.25.8
+
+# storages
+django-storages==1.12.3
+
+# required by django-storage
+google-cloud-storage==2.4.0
+
+# file updater for PR
+dparse[pipenv]==0.5.1
+toml
+
+#PyJWT BACK-2193
+PyJWT==v1.7.1
+
+
+# core-engine merge
+sshconf==0.2.2
+GitPython==2.1.11
+gitdb2==2.0.6
+
+#okta client
+okta==2.3.1
+
+# pysvn client
+svn==1.0.1
+
+# Sentry official SDK
+# ------------------------------------------------
+sentry-sdk==1.4.3
+
+# spdx
+spdx-tools==0.7.1
+
+# cyclonedx
+cyclonedx-bom==3.1.1
+
+# django channels, uvicorn
+channels==3.0.5
+channels_redis==3.4.1
+uvicorn[standard]==0.18.2
+
+# black
+black==22.8.0
+isort==5.12.0
+django-debug-toolbar==3.2.4
+
+#django-silk
+django-silk==5.0.3
+
+# protobuf
+protobuf==4.21.12
+
+# ldap
+django-auth-ldap==4.0.0
+
+# semantic-version for calculate remediation compatibility
+semantic-version==2.10.0
+
+graphic-verification-code==1.0.3

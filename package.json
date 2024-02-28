@@ -2,6 +2,18 @@
   "name": "my-project",
   "version": "1.0.0",
   "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "ganache": "^7.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "solc": "^0.8.4",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.1.2"
     "lodash": "*",
     "moment": "2.29.1",
     "express": "^4.17.1",
@@ -12,6 +24,7 @@
     "my-github-library": "github:my-github-user/my-github-library#dev",
     "my-npm-library": "github:my-github-user/my-npm-library#v1.0.0"
   },
+  
   "memo": {
     "lodash": "* 安装最新版本的Lodash"
     "moment": "2.29.1 安装指定版本的Moment.js"
